@@ -2,4 +2,4 @@
 
 Manejador de imágenes BMP
 Proyecto #1
-Computer Science 2, Universidad Galileo
+Ciencias de la Computación 2, Universidad Galileo
