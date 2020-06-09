@@ -335,81 +335,68 @@ class Frame implements ActionListener {
         		image = ImageIO.read(imageFile);
         		imageIcon = new ImageIcon(image);
         		lblImagen.setIcon(imageIcon);
-        	}
-            else if(e.getSource() == btnColors1) {
+        	} else if(e.getSource() == btnColors1) {
                 imageFile = new File("./Blue"+strFileName+".bmp"); 
                 image = ImageIO.read(imageFile);
                 imageIcon = new ImageIcon(image);
                 lblImagen.setIcon(imageIcon);
-            } 
-            else if(e.getSource() == btnColors2) {
+            } else if(e.getSource() == btnColors2) {
                 imageFile = new File("./Green"+strFileName+".bmp"); 
                 image = ImageIO.read(imageFile);
                 imageIcon = new ImageIcon(image);
                 lblImagen.setIcon(imageIcon);
-            } 
-            else if(e.getSource() == btnColors3) {
+            } else if(e.getSource() == btnColors3) {
                 imageFile = new File("./Red"+strFileName+".bmp"); 
                 image = ImageIO.read(imageFile);
                 imageIcon = new ImageIcon(image);
                 lblImagen.setIcon(imageIcon);
-            }
-            else if(e.getSource() == btnColors4) {
+            } else if(e.getSource() == btnColors4) {
                 imageFile = new File("./RAV"+strFileName+".bmp"); 
                 image = ImageIO.read(imageFile);
                 imageIcon = new ImageIcon(image);
                 lblImagen.setIcon(imageIcon);
-            }
-            else if(e.getSource() == btnColors5) {
+            } else if(e.getSource() == btnColors5) {
                 imageFile = new File("./RVA"+strFileName+".bmp"); 
                 image = ImageIO.read(imageFile);
                 imageIcon = new ImageIcon(image);
                 lblImagen.setIcon(imageIcon);
-            }
-            else if(e.getSource() == btnRotate1) {
+            } else if(e.getSource() == btnRotate1) {
                 imageFile = new File("./HRotate"+strFileName+".bmp"); 
                 image = ImageIO.read(imageFile);
                 imageIcon = new ImageIcon(image);
                 lblImagen.setIcon(imageIcon);
-            } 
-            else if(e.getSource() == btnRotate2) {
+            } else if(e.getSource() == btnRotate2) {
                 imageFile = new File("./VRotate"+strFileName+".bmp"); 
                 image = ImageIO.read(imageFile);
                 imageIcon = new ImageIcon(image);
                 lblImagen.setIcon(imageIcon);
-            } 
-            else if(e.getSource() == btnRotate3) {
+            } else if(e.getSource() == btnRotate3) {
                 imageFile = new File("./Cross"+strFileName+".bmp"); 
                 image = ImageIO.read(imageFile);
                 imageIcon = new ImageIcon(image);
                 lblImagen.setIcon(imageIcon);
-            }
-            else if(e.getSource() == btnBD1) {
+            } else if(e.getSource() == btnBD1) {
                 imageFile = new File("./Bright"+strFileName+".bmp"); 
                 image = ImageIO.read(imageFile);
                 imageIcon = new ImageIcon(image);
                 lblImagen.setIcon(imageIcon);
-            } 
-            else if(e.getSource() == btnBD2) {
+            } else if(e.getSource() == btnBD2) {
                 imageFile = new File("./Dark"+strFileName+".bmp"); 
                 image = ImageIO.read(imageFile);
                 imageIcon = new ImageIcon(image);
                 lblImagen.setIcon(imageIcon);
-            }
-            else if(e.getSource() == btnGrayScale) {
+            } else if(e.getSource() == btnGrayScale) {
                 imageFile = new File("./Grays"+strFileName+".bmp");
                 image = ImageIO.read(imageFile);
                 imageIcon = new ImageIcon(image);
                 lblImagen.setIcon(imageIcon);
-            }
-            else if (e.getSource() == btnRLE) {
+            } else if (e.getSource() == btnRLE) {
                 imageFile = new File("./RLE-"+strFileName+".bmp");
                 image = ImageIO.read(imageFile);
                 imageIcon = new ImageIcon(image);
                 lblImagen.setIcon(imageIcon); 
             }
-        }
-        catch (Exception ex) {
+        } catch (Exception ex) {
             ex.printStackTrace(System.out);
         }
     }
